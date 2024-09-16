@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: tahoma;
+  }
+  form {
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .input-element {
+    margin: 10px;
+    display: flex;
+    flex-direction: column
+  }
+  select{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+  }
+  h3, h4, footer{
+    text-align: center;
+  }
+  input[type="submit"]{
+    border: black;
+    color: #949395;
+    padding: 15px 32px;
+    text-align: center;;
+    display: flex;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+  }
+  input.btn[type="submit"]:hover {
+    background-color: #b77bf2;
+    color: black;}
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 15px;
+  }
+  
+  .mmemail {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: purple;
+  }

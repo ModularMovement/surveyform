@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+    <h1 id='title'><em>Sound Check</em>: Shape the Future of Modular Movement</h1>
+        <p id='description'><em>Thank you for taking the time to help the music community!</em></p>
+        <img  src="https://i.im.ge/2024/09/17/fvI6hX.mmlogosmall.png" width="100" height="100"></img>
+    <form id='survey-form'>
+      <div class="input-element">
+      <label id="name-label">
+      Name
+      </label>
+      <input placeholder="Name" id='name' type='text' required/>
+      </div>
+      <div class="input-element">
+      <label id="email-label">Email</label>
+      <input placeholder="Email"id='email' type='email' required/>
+      </div>
+      <div class="input-element">
+      <label id="number-label">Age</label>
+      <input placeholder="Age"id='number' type='number'min="8" max="100" required/>
+      </div>
+      <h3>General Usage</h3>
+      <div class="input-element">
+      <label id="select-label">
+      How familiar are you with using Digital Audio Workstations (DAWs)?
+      </label>
+      <select id='dropdown'>
+        <option value="" disabled selected hidden>Please Choose...</option>
+     <option>Beginner</option> 
+     <option>Intermediate</option> 
+     <option>Advanced</option> 
+      </select>
+      <label id="select-label">
+      Which DAWs do you primarily use?
+      </label>
+      <select id='dropdown'>
+        <option value="" disabled selected hidden>Please Choose...</option>
+     <option>Ableton</option> 
+     <option>FL Studio</option> 
+     <option>Logic Pro</option>
+     <option>Pro Tools</option>  
+      </select>
+      <label id="select-label">
+      How often do you practice music or produce tracks?
+      </label>
+      <select id='dropdown'>
+        <option value="" disabled selected hidden>Please Choose...</option>
+     <option>Daily</option> 
+     <option>Weekly</option> 
+     <option>Monthly</option>
+     <option>Rarely</option>  
+      </select>
+  </div>
+    <label>What instrument do you primarily play?</label>
+    <div>
+    <label><input type='radio'value='1'name='instrument'>Guitar</label> 
+    </div>
+    <div>
+    <label><input type='radio'value='2'name='instrument'>Bass</label>
+    </div>
+    <div>
+    <label><input type='radio'value='3'name='instrument'>Piano/Keys</label>
+    </div>
+    <div>
+    <label><input type='radio'value='4'name='instrument'>Drums</label>
+    </div>
+    </div>
+    <fieldset id='checkboxes'>
+  <h3>Learning Preferences</h3>
+    <label>What type of tutorials are you most interested in?<em> (Check all that apply)</em></label>
+    <div>
+    <label><input type='checkbox'name='ideas'value='navigation'>DAW Navigation</label> </div><div>
+    <label><input type='checkbox'name='ideas'value='breakdown'>Song Breakdown</label></div><div>
+    <label><input type='checkbox'name='ideas' value='techniques'>Instrument Techniques</label></div><div>
+    <label><input type='checkbox'name='ideas'value='production'>Music Production</label></div>
+    </div>
+    <label>How do you prefer to learn?<em> (Check all that apply)</em></label>
+    <div>
+  <label><input type='checkbox'name='ideas'value='tutorials'>Video Tutorials</label> </div><div>
+  <label><input type='checkbox'name='ideas'value='guides'>Step-by-step Guides<label></div><div>
+  <label><input type='checkbox'name='ideas' value='courses'>Interactive Courses</label></div><div>
+  <label><input type='checkbox'name='ideas'value='coaching'>One-on-one coaching<label></div>
+  </div>
+    </div>
+  <label>Which musical genres are you most interested in learning?<em> (Check all that apply)</em></label>
+  <div>
+    <label><input      type='checkbox'name='ideas'value='rock'>Rock</label></div><div>
+  <label><input type='checkbox'name='ideas'value='pop'>Pop</label></div><div>
+      <label><input type='checkbox'name='ideas' value='hiphop'>Hip-Hop</label></div><div>
+  <label><input type='checkbox'name='ideas'value='edm'>EDM</label></div><div>
+      <label><input type='checkbox'name='ideas' value='jazzblues'>Jazz/Blues</label></div><div>
+    <label><input type='checkbox'name='ideas' value='country'>Country</label></div>
+  <label>Would you prefer learning songs or learning production techniques (or both)?</label>
+  <div>
+  <label><input type='radio'value='4'name='learning'>Learning Songs</label> 
+  </div>
+  <div>
+  <label><input type='radio'value='5'name='production'>Production Techniques</label>
+  </div>
+  <div>
+  <label><input type='radio'value='6'name='both'>Both</label>
+  </div>
+  </fieldset>
+  <h3>Experience and Skill Level</h3>
+  <label>What is your current skill level in your instrument?</label>
+  <div>
+  <label><input type='radio'value='7'name='beginner'>Beginner</label> 
+  </div>
+  <div>
+  <label><input type='radio'value='8'name='intermediate'>Intermediate</label>
+  </div>
+  <div>
+  <label><input type='radio'value='9'name='advanced'>Advanced</label>
+  </div>
+  <label>What is your current skill level with DAWs?</label>
+  <div>
+  <label><input type='radio'value='10'name='beginner2'>Beginner</label> 
+  </div>
+  <div>
+  <label><input type='radio'value='11'name='intermediate2'>Intermediate</label>
+  </div>
+  <div>
+  <label><input type='radio'value='12'name='advanced2'>Advanced</label>
+  </div>
+  <h3>Website and Course Preferences</h3>
+  <label>What features would you find most useful on the website?<em> (Check all that apply)</em></label>
+  <div>
+  <label><input type='checkbox'name='ideas'value='playlists'>Personalized Playlists</label> </div><div>
+  <label><input type='checkbox'name='ideas'value='recs'>Course Recommendations<label></div><div>
+  <label><input type='checkbox'name='ideas' value='tracking'>Progress Tracking</label></div><div>
+  <label><input type='checkbox'name='ideas'value='resources'>Downloadable Resources<label></div>
+  <label>How important is the tutorials to include sheet music, tabs, or visual aids?</label>
+    <div>
+  <label><input type='radio'value='13'name='important'>Very Important</label> 
+  </div>
+  <div>
+  <label><input type='radio'value='14'name='simportant'>Somewhat Important</label>
+  </div>
+  <div>
+  <label><input type='radio'value='15'name='notimportant'>Not Important</label>
+  </div>
+  <label>Would you be interested in live Q&A sessions with instructors?</label>
+    <div>
+  <label><input type='radio'value='16'name='yes'>Yes</label> 
+  </div>
+  <div>
+  <label><input type='radio'value='17'name='no'>No</label>
+  </div>
+  <div>
+  <label><input type='radio'value='18'name='maybe'>Maybe</label>
+  </div>
+  <h3>Feedback and Recommendations</h3>
+<div class='input-elemet'>
+<h4>What improvements or features would you like to see in a music learning website?
+</h4>
+    <textarea id="improve" name="improve" rows="3" cols="50" placeholder="Enter your comments here..."></textarea>
+  </div>
+  <h4>Have you used any similar music tutorial platforms before? If so, which ones?</h4>
+    <textarea id="similar" name="similar" rows="3" cols="50" placeholder="Enter your comments here..."></textarea>
+  <input class='btn'type="submit" value="Submit">
+<hr class="bottom-line">
+<footer>
+    <p>
+    <a href="https://www.skool.com/modularmovement" target="_blank">Visit our website</a>
+    </p>
+    <p class="mmemail">help.modularmovement@gmail.com
+    </p>
+            </footer>
+         </form>
+        </body>
+  </html>
